@@ -1,5 +1,5 @@
 # portfolio-monte-carlo
-Monte Carlo portfolio simulator
+Monte Carlo portfolio simulator (READ python_mc.py)
 # Portfolio Monte Carlo Simulator
 
 A Python tool simulating 5-year performance of a diversified global 
@@ -20,6 +20,7 @@ python monte_carlo.py
 
 ## Improvements
 Fix the inflated Sharpe Ratio and Sortino Ratio
+Rebalance & improve diversification
 
 ## Nederlands
 De meeste berekeningen voor later gaan uit van een simpel lijntje omhoog, maar de beurs werkt niet zo. Om een eerlijker beeld te krijgen, heb ik een tool gebouwd die tienduizend verschillende scenario's doorrekent voor een mix van achttien assets. De basis hiervoor is live data; via yfinance haalt de code de meest recente koersen op en berekent zelf hoe hard deze assets schommelen. Zo ben je niet afhankelijk van verouderde lijstjes, maar zie je de markt van vandaag.
