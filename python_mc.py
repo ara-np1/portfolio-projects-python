@@ -4,29 +4,27 @@ import yfinance as yf
 from datetime import datetime, timedelta
 
 allocations = {
-    "AAPL":    0.0274,
-    "NVDA":    0.0274,
-    "MSFT":    0.0274,
-    "LMT":     0.0526,
-    "JPM":     0.0501,
-    "JNJ":     0.0501,
-    "ASML":    0.0275,
-    "BRK-B":   0.0018,
-    "AMZN":    0.0020,
-    "VWCE.DE": 0.2721,
-    "VUAA.L":  0.1332,
-    "EIMI.L":  0.0762,
-    "VHYL.L":  0.0774,
-    "TRET.AS": 0.0091,
-    "4GLD.DE": 0.0350,
-    "VAGF.DE": 0.0499,
-    "IWDP.L":  0.0717,
-    "WSML.L":  0.0091,
+    "VWCE.DE": 0.3577,
+    "VUAA.L":  0.0988,
+    "MVOL.L":  0.0846,
+    "VAGF.DE": 0.0694,
+    "WQDV.L":  0.0529,
+    "4GLD.DE": 0.0522,
+    "VHYL.L":  0.0451,
+    "EIMI.L":  0.0445,
+    "IWDP.L":  0.0418,
+    "LMT":     0.0307,
+    "JNJ":     0.0292,
+    "JPM":     0.0292,
+    "ASML":    0.0160,
+    "AAPL":    0.0160,
+    "NVDA":    0.0160,
+    "MSFT":    0.0160,
 }
 
 num_simulations    = 10000
 time_horizon       = 5
-initial_investment = 650
+initial_investment = 944.34
 risk_free_rate     = 0.03
 lookback_years     = 5
 np.random.seed(0)
@@ -84,8 +82,8 @@ mu = np.log(1 + return_list) - 0.5 * vol_list ** 2
 n = len(assets)
 corr = np.eye(n)
 
-stocks = {"AAPL", "NVDA", "MSFT", "LMT", "JPM", "JNJ", "ASML", "BRK-B", "AMZN"}
-etfs   = {"VWCE.DE", "VUAA.L", "EIMI.L", "VHYL.L", "IWDP.L", "WSML.L", "TRET.AS"}
+stocks = {"AAPL", "NVDA", "MSFT", "LMT", "JPM", "JNJ", "ASML"}
+etfs   = {"VWCE.DE", "VUAA.L", "MVOL.L", "WQDV.L", "VHYL.L", "EIMI.L", "IWDP.L"}
 bonds  = {"VAGF.DE"}
 gold   = {"4GLD.DE"}
 
