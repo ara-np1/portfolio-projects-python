@@ -1,7 +1,6 @@
 Bevestigd doormiddel van onderzoek 
 
 Sequential yearly / daily modeling
-Multivariate normal random draws
 Correlation matrix integration (Cholesky)
 Annual volatility scaling
 Regime-switching logic (Bull / Bear)
@@ -15,16 +14,14 @@ Fee modeling (TER / Platform / Trading)
 Tax and currency risk adjustment
 
 Risk and Analysis
-Maximum Drawdown tracking
 Sharpe and Sortino ratios
 Beta and market sensitivity
 Stress testing (recession / shocks)
 Black Swan (Student-t) fat-tails
 Probability of ruin / target hitting
 
-UI and Optimization
-Streamlit / Dash interactive dashboard
-Scenario fan charts (5th-95th percentiles)
+Optimization
+interactive dashboard
 Mean-Variance and Risk Parity optimization
 Efficient Frontier modeling
 Historical backtesting (S&P 500 / VWCE)
