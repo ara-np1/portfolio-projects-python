@@ -31,7 +31,6 @@ GARCH volatility forecasting (ML)
 
 Engine and Wiskunde
 Sequentiële tijdmodellering (jaar / dag)
-Multivariate normale trekkingen
 Correlatiematrix integratie (Cholesky)
 Correcte volatiliteit-schaling
 Regime-switching (Bull / Bear markt)
@@ -52,7 +51,7 @@ Stresstests (recessie / schokken)
 Black Swan (Student-t) fat-tails
 Kans op vermogensuitputting
 
-UI and Optimalisatie
+Optimalisatie
 Interactief Streamlit / Dash dashboard
 Scenario-waaiers (percentielbanden)
 Mean-Variance and Risk Parity optimalisatie
