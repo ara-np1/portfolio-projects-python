@@ -1,7 +1,7 @@
 import yfinance as yf
 import numpy as np
 
-data = yf.download("JPM", start="2016-02-08", end="2026-02-08", auto_adjust=True)['Close']
+data = yf.download("JPM", start="2016-06-07", end="2026-06-07", auto_adjust=True)['Close']
 returns = data.pct_change().dropna()
 
 daily_return = float(returns.mean().iloc[0])
