@@ -3,7 +3,7 @@ Monte Carlo portfolio simulator (READ python_mc.py)
 # Portfolio Monte Carlo Simulator
 
 A Python tool simulating 5-year performance of a diversified global 
-portfolio across 18 assets using Monte Carlo methods.
+portfolio across 16 assets using Monte Carlo methods.
 
 ## What it does
 - Downloads live price data via yfinance
